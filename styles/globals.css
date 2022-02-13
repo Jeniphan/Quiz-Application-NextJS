@@ -1,6 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600&display=swap');
+body {
+    background-color: #398AB9;
+    color: #EEEEEE;
+    font-family: 'Prompt', sans-serif;
+}
+
+.app h1 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
 .app {
     height: 100vh;
     display: flex;
@@ -21,6 +33,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #1C658C;
 }
 
 .menu button,
@@ -31,10 +44,10 @@
     margin: 5px;
     border-radius: 5px;
     font-size: pointer;
-    background-color: lightgrey;
+    background-color: orange;
 }
 
 button:active {
-    background-color: orange;
-    color: white;
+    background-color: #D8D2CB;
+    color: #398AB9;
 }
